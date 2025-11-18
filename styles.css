@@ -68,3 +68,68 @@ body {
     transform: rotate(360deg) scale(1.4);
     filter: brightness(1.5);
 }
+.login-section {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login-section input[type="email"],
+.login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7b2ff7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-section button:hover {
+    background-color: #4e0fb4;
+}
+.login-section .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #7b2ff7;
+    text-decoration: none;
+}
+.login-section .forgot-password:hover {
+    text-decoration: underline;
+}
+.login-section .input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.eye-icon {
+    position: absolute;
+    top: 40%;
+    right: 12px;     /* THIS places it on the right side */
+    transform: translateY(-50%);
+    width: 22px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.input-group input:focus {
+    border-color: #00c6ff;
+}
