@@ -50,7 +50,7 @@ body {
     gap: 8px;
 }
 .main-nav a {
-    text-decoration: none;
+    text-decoration: goldenrod;
     color: #333;
     font-weight: bold;
     font-size: 18px;

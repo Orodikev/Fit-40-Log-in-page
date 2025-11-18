@@ -44,12 +44,18 @@
         <p>Email: info@fit40fc.com</p>
         <p>Phone: +123 456 7890</p>
     </section>
-    <section id="login">
-        <h2>Username Login</h2>
-        <form action="login.html" method="post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br>
+    <section id="login" class="login-section">
+        <div class="login-container">
+            <h2>Account Login</h2>
+            <form action="login.html" method="post">
+                <div class="input-group">
+                    <img src="login.png" alt="User Icon" class="input-icon">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-group">
+                    <img src="password.png" alt="Password Icon" class="input-icon">
+                    <input type="password" name="password" placeholder="Password" required>
+                    <img src="show.png" alt="Show Password Icon" class="show-password-icon">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
             <br>
