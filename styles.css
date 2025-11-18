@@ -133,3 +133,12 @@ body {
 .input-group input:focus {
     border-color: #00c6ff;
 }
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+    background-color: #e0c3fc;
+    border-radius: 10px;
+}
