@@ -135,10 +135,36 @@ body {
 }
 .info-section {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
     gap: 20px;
-    padding: 30px;
+    padding: 20px;
     background-color: #e0c3fc;
     border-radius: 10px;
+    margin-top: 40px;
+}
+.info-section div {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: #333 1px solid;
+    transition: all 0.3s ease;
+}
+.info-section div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background: #692fc6;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #e0c3fc;
+    border-radius: 10px;
+}
+footer p {
+    margin: 0;
+    color: #333;
 }
